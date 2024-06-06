@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar </title>
+    <style>
+        img {
+            height: 350px;
+            width: 350px;
+        }
+
+        .a {
+            text-align: center;
+            font-size: 24px;
+            margin-top: 8px;
+        }
+
+        .signupform {
+            background-color: skyblue;
+            margin-left: auto;
+            margin-right: auto;
+            width: 300px;
+            padding: 24px;
+
+        }
+
+        .label {
+            margin: 0;
+            margin-bottom: 4px;
+            margin-top: 12px;
+        }
+
+        .inputlabel {
+            width: 100%;
+
+        }
+        .menu-item{
+           font-size: 20px; 
+            padding: 5px; 
+           text-decoration: none;
+           color: black;
+           
+        }
+        .menu-item:link {
+            color: blue;
+        }
+        .menu-item:visited{
+            color:green;
+        }
+        .menu-item:hover{
+            color: red;
+        }
+        .menu-item:active{
+            color: purple;
+        }
+    </style>
+</head>
+
+<body style="margin: 0%;">
+
+    <div style="background-color:aliceblue;">
+
+        <div style="background-color: rgb(243, 219, 125); padding: 10px; text-align: end ; ">
+            <a class="menu-item" href="https://www.youtube.com/">Home</a>
+            <a class="menu-item" href="https://www.youtube.com/">Profile</a>
+            <a class="menu-item" href="https://www.youtube.com/">About</a>
+            <a class="menu-item" href="https://www.youtube.com/">Contact</a>
+           
+        </div>
+
+
+        <table style="margin-left: auto; margin-right: auto;">
+
+            <h1 class="a">Car Zone Buy your Dream CAR</h1>
+            <tr>
+                <td>
+                    <div>
+                        <img src="https://media.istockphoto.com/id/1307086567/photo/generic-modern-suv-car-in-concrete-garage.jpg?s=1024x1024&w=is&k=20&c=NehEPnJZVdks6u6RgVBNiGei0F1LOqs7jh81dExbXpc="
+                            alt="Car">
+                        <p class="a">BMW CAR </p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <img src="https://media.istockphoto.com/id/1307086567/photo/generic-modern-suv-car-in-concrete-garage.jpg?s=1024x1024&w=is&k=20&c=NehEPnJZVdks6u6RgVBNiGei0F1LOqs7jh81dExbXpc="
+                            alt="Car">
+                        <p class="a">BMW CAR </p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <img src="https://media.istockphoto.com/id/1307086567/photo/generic-modern-suv-car-in-concrete-garage.jpg?s=1024x1024&w=is&k=20&c=NehEPnJZVdks6u6RgVBNiGei0F1LOqs7jh81dExbXpc="
+                            alt="Car">
+                        <p class="a">BMW CAR </p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div>
+                        <img src="https://media.istockphoto.com/id/1307086567/photo/generic-modern-suv-car-in-concrete-garage.jpg?s=1024x1024&w=is&k=20&c=NehEPnJZVdks6u6RgVBNiGei0F1LOqs7jh81dExbXpc="
+                            alt="Car">
+                        <p class="a">BMW CAR </p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <img src="https://media.istockphoto.com/id/1307086567/photo/generic-modern-suv-car-in-concrete-garage.jpg?s=1024x1024&w=is&k=20&c=NehEPnJZVdks6u6RgVBNiGei0F1LOqs7jh81dExbXpc="
+                            alt="Car">
+                        <p class="a">BMW CAR </p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <img src="https://media.istockphoto.com/id/1307086567/photo/generic-modern-suv-car-in-concrete-garage.jpg?s=1024x1024&w=is&k=20&c=NehEPnJZVdks6u6RgVBNiGei0F1LOqs7jh81dExbXpc="
+                            alt="Car">
+                        <p class="a">BMW CAR </p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+    <div style="background-color: bisque; ">
+
+        <form method="get">
+
+            <input type="text" id="fname" name="fname" placeholder="Name" required autofocus><br><br>
+            <input type="email" name="email" placeholder="Email" required><br><br>
+            <input type="text" id="lname" name="lname" placeholder="Last Name"><br><br>
+            <input type="password" placeholder="Password" required name="password" id="password"><br><br>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+
+    <div style="background-color: yellow; margin-bottom: 12px;" method="GET">
+
+        <h1 style="text-align: center;">signup</h1>
+        <form class="signupform" method="GET">
+            <div>
+                <p class="label">Full Name:</p>
+                <input class="inputlabel" type="text" name="name" required>
+            </div>
+            <div>
+                <p class="label">Email:</p>
+                <input class="inputlabel" type="email" name="email" required>
+            </div>
+            <div>
+                <p class="label">AGE:</p>
+                <input class="inputlabel" type="number" name="AGE" min="18" max="60">
+            </div>
+            <div>
+                <p class="label">Password:</p>
+                <input class="inputlabel" type="password" name="password" required maxlength="15">
+            </div>
+            <div>
+                <p class="label">Confirm Password:</p>
+                <input class="inputlabel" type="password" name="Confirm password" maxlength="15">
+            </div>
+            <div>
+                <p class="label">Gender:</p>
+                <input type="radio">Male
+                <input type="radio">Female
+                <input type="radio">Other
+            </div>
+
+
+
+            <div>
+                <p class="label">Security Questions:</p>
+                <select class="inputlabel" name="" id="">
+                    <option value="">what is your latest degree</option>
+                    <option value="">what is your latest job</option>
+                    <option value="">what is your pet name</option>
+
+                </select>
+                <div>
+                    <textarea class="inputlabel" name="answer" id="" cols="30" rows="8"></textarea>
+                </div>
+
+            </div>
+            <div>
+                <p class="label">select your faviorite car:</p>
+                <input class="inputlabel" list="cars" name="cars">
+                <datalist id="cars">
+                    <option value="BMW">
+                    <option value="Mercedes">
+                    <option value="Thar">
+                    <option value="Honda">
+                    <option value="Hyundai">
+                    <option value="TATA">
+                </datalist>
+            </div>
+
+            <div>
+                <p class="label">Birthdate:</p>
+                <input class="inputlabel" type="date" name="date">
+            </div>
+            <div>
+                <p class="label">Certificate Valid date:</p>
+                <input type="date" name="date" max="2015-01-01">
+                <input type="date" name="date" min="2023-01-01">
+            </div>
+            <div>
+                <p class="label">Upload resume:</p>
+                <input type="file" name="document">
+            </div>
+
+            <div><input type="checkbox" style="margin-top: 8px;margin-right: 10px;">Accept all term and conditions
+                <div class="label">
+                    <input type="button" name="button" value="Register">
+                    <input type="reset" name="reset" value="Clear">
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
